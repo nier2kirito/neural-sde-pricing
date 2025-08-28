@@ -1,3 +1,10 @@
+"""
+Neural Network Architectures for Neural SDE Framework
+
+This module contains the neural network building blocks used in the Neural SDE
+implementation, including feed-forward networks and time-dependent architectures.
+"""
+
 import torch
 import torch.nn as nn
 

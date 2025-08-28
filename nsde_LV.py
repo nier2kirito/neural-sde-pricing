@@ -1,6 +1,13 @@
+"""
+Neural SDE with Local Volatility for Option Pricing and Hedging
+
+This module implements the Neural SDE framework with Local Volatility model
+for calibrating to vanilla option prices and computing hedging strategies.
+"""
+
 import sys
 import os
-sys.path.append(os.path.dirname('__file__'))
+sys.path.append(os.path.dirname(__file__))
 
 import torch
 import torch.nn as nn
